@@ -1,0 +1,32 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dégradé de fond -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="profileGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fond principal -->
+  <rect width="400" height="300" fill="url(#bgGradient)" rx="15"/>
+  
+  <!-- Formes décoratives -->
+  <circle cx="350" cy="50" r="30" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="50" cy="250" r="40" fill="rgba(255,255,255,0.05)"/>
+  
+  <!-- Avatar placeholder -->
+  <circle cx="200" cy="120" r="45" fill="url(#profileGradient)"/>
+  <circle cx="200" cy="110" r="15" fill="rgba(255,255,255,0.9)"/>
+  <path d="M 175 135 Q 200 150 225 135" stroke="rgba(255,255,255,0.9)" stroke-width="3" fill="none"/>
+  
+  <!-- Texte -->
+  <text x="200" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="600">Photo de Profil</text>
+  <text x="200" y="210" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="Arial, sans-serif" font-size="12">400 x 300px</text>
+  
+  <!-- Bordure -->
+  <rect x="2" y="2" width="396" height="296" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1" rx="15"/>
+</svg>
