@@ -7,12 +7,12 @@
   --text-primary: #ffffff;
   --text-secondary: #f0f0f0;
   --text-muted: #a0a0a0;
-  --accent-primary: #e381b1;
-  --accent-secondary: #ff9cd1;
+  --accent-primary: #ffc0cb;
+  --accent-secondary: #ffb3c1;
   --accent-tertiary: #ffffff;
-  --success: #e381b1;
-  --warning: #ff9cd1;
-  --error: #d63384;
+  --success: #ffc0cb;
+  --warning: #ffb3c1;
+  --error: #ff91a4;
 
   --gradient-primary: linear-gradient(
     135deg,
